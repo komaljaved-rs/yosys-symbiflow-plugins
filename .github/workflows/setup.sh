@@ -43,6 +43,7 @@ start_section Install-Yosys
         echo '=========================='
         echo 'Building yosys'
         echo '=========================='
+        set -x
         mkdir -p ~/.local-src
         mkdir -p ~/.local-bin
         cd ~/.local-src
